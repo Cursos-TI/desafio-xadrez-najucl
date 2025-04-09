@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+// Funções para movimentação das peças
+void moverBispo() {
+    // Implementação da movimentação do Bispo
+    printf("Movimentação do Bispo\n");
+    // Exemplo de movimentação em diagonal
+}
+
+void moverTorre() {
+    // Implementação da movimentação da Torre
+    printf("Movimentação da Torre\n");
+    // Exemplo de movimentação para a direita
+}
+
+void moverRainha() {
+    // Implementação da movimentação da Rainha
+    printf("Movimentação da Rainha\n");
+    // Exemplo de movimentação para a esquerda
+}
+
+void moverCavalo() {
+    // Implementação da movimentação do Cavalo
+    printf("Movimentação do Cavalo\n");
+    // Exemplo de movimentação em L
+}
+
+int main(void) {
+    printf("Desafio Jogo de Xadrez\n");
+
+    // Chamada das funções de movimentação
+    moverBispo();
+    moverTorre();
+    moverRainha();
+    moverCavalo();
+
+    return 0;
+}
